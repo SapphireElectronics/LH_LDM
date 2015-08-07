@@ -474,18 +474,14 @@ DocumentPath=Fabrication\Fabrication Outputs\ExportSTEP\c1yc_ldm.step
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for 28245_a01\Design Rule Check - c1yc_ldm.html
-DItemRevisionGUID=
-
-[GeneratedDocument21]
 DocumentPath=Fabrication\Fabrication Outputs\Test Points\Fabrication Testpoint Report for c1yc_ldm.csv
 DItemRevisionGUID=
 
-[GeneratedDocument22]
+[GeneratedDocument21]
 DocumentPath=Fabrication\Fabrication Outputs\Pick Place\Pick Place for c1yc_ldm.txt
 DItemRevisionGUID=
 
-[GeneratedDocument23]
+[GeneratedDocument22]
 DocumentPath=Fabrication\SystemBOM.xml
 DItemRevisionGUID=
 
@@ -494,24 +490,24 @@ Path=..\..\..\..\..\Electrical Design\Library\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=PartRevision
-Value=A03
+Name=PartAssembly
+Value=LitMock Assy
 
 [Parameter2]
-Name=PartPCB
-Value=28349
+Name=PartName
+Value=C1YC HDLP
 
 [Parameter3]
 Name=PartNumber
 Value=28349 Assy
 
 [Parameter4]
-Name=PartName
-Value=C1YC HDLP
+Name=PartPCB
+Value=28349
 
 [Parameter5]
-Name=PartAssembly
-Value=LitMock Assy
+Name=PartRevision
+Value=A03
 
 [Configuration1]
 Name=Assembly
@@ -583,7 +579,7 @@ OutputDir=Project Outputs for 28245_a01
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=P1 Office - Canon iR-ADV 4051
+TargetPrinter=Send To OneNote 2013
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -624,7 +620,7 @@ OutputDefault7=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=P1 Office - Canon iR-ADV 4051
+TargetPrinter=Send To OneNote 2013
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -758,17 +754,11 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType18=Software Platform Print
-OutputName18=Software Platform Prints
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
-PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=P1 Office - Canon iR-ADV 4051
+TargetPrinter=Send To OneNote 2013
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -790,7 +780,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=P1 Office - Canon iR-ADV 4051
+TargetPrinter=Send To OneNote 2013
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -862,7 +852,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=P1 Office - Canon iR-ADV 4051
+TargetPrinter=Send To OneNote 2013
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Script
 OutputName1=Script Output
@@ -903,7 +893,7 @@ Configuration6_Item1=Record=ReportHierarchyView|ReportHierarchyMode=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=P1 Office - Canon iR-ADV 4051
+TargetPrinter=Send To OneNote 2013
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1083,7 +1073,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=P1 Office - Canon iR-ADV 4051
+TargetPrinter=Send To OneNote 2013
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -1122,7 +1112,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=P1 Office - Canon iR-ADV 4051
+TargetPrinter=Send To OneNote 2013
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
